@@ -27,6 +27,18 @@
         margin:8px 0;
         display:inline-block;
     }
+    form button{
+        width:180px;
+        padding:8px 16px;
+        margin-top:32px;
+        border:1px solid #000;
+        border-radius:5px;
+        display:block;
+        color:#fff;
+        background-color:#f00d0d;
+        font-weight: bold;
+    } 
+  
     input[type="submit"]{
         width:180px;
         padding:8px 16px;
