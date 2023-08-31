@@ -35,7 +35,8 @@
         border-radius:5px;
         display:block;
         color:#fff;
-        background-color:#000;
+        background-color:#f00d0d;
+        font-weight: bold;
     } 
     input[type="submit"]:hover{
         cursor:pointer;
