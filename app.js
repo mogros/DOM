@@ -24,11 +24,16 @@ form.addEventListener('submit', function(event){
 
 
     eliminarCompletadas.addEventListener('click',function() {
-        const  tareasCompletadas= document.querySelectorAll('completadas')
+        
+        document.getElementById("tareasLista").remove(); 
+        /*       const  tareasCompletadas= document.querySelectorAll('completada')
     
         tareasCompletadas.forEach(function(tareaCompletada){
             tareaCompletada.remove();
         });
+        */
+
+
     });
 
 
