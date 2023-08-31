@@ -24,6 +24,7 @@ form.addEventListener('submit', function(event){
         
         const $elemento = document.querySelector("#tareasLista");
         $elemento.innerHTML = "";
+        document.getElementById('tarea').focus();
 
         /*
         document.getElementById("tareasLista").remove(); 
