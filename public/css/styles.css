@@ -37,8 +37,7 @@
         color:#fff;
         background-color:#f00d0d;
         font-weight: bold;
-    } 
-  
+    }   
     input[type="submit"]{
         width:180px;
         padding:8px 16px;
@@ -58,7 +57,10 @@
         width:180px;
         background-color: #17ee78;
     }
-
+    #cabecera { 
+        height: 350px; 
+        width: 350px; ;
+    }
 
   /* Estilos de header  */
   

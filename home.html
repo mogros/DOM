@@ -25,22 +25,6 @@
                 <div class="compraencuotas"> <i class="fa-solid fa-hand-holding-dollar"></i> Comprá en cuotas y sin tarjeta de crédito</div>
             </h2>
         </div>
-
-        <div>
-            <h1> Lista de tareas</h1>
-            <form id="agregarForm">
-                <label for="tarea"> Nueva Tarea </label>
-                <input type="text" id="tarea" required>
-                <button type="submit" > Agregar tarea </button>
-            </form>                
-
-            <!-- con ul para agreagar contenidao
-            <button  id="eliminarCompletadas"> Eliminar </button>
-            -->
-            <ul id="tareasLista"></ul>
-            <input id="eliminarCompletadas" type="submit"  value="Eliminar datos"/>
-
-        </div>
         
         <nav>
             <div class = "menu_tienda">
@@ -65,6 +49,26 @@
 
 
     <main>
+
+        <table>
+            <tr>
+                <td>
+                    <h1> Lista de tareas</h1>
+                    <form id="agregarForm">
+                        <label for="tarea"> Nueva Tarea </label>
+                        <input type="text" id="tarea" required>
+                        <button type="submit" > Agregar tarea </button>
+                    </form>                
+                </td>
+                <td>
+                    <!-- con ul para agreagar contenidao
+                    <button  id="eliminarCompletadas"> Eliminar </button>
+                    -->
+                    <ul id="tareasLista"></ul>
+                    <input id="eliminarCompletadas" type="submit"  value="Eliminar datos"/>
+                </td>
+            </tr>
+        </table>
 
         <section>
 
