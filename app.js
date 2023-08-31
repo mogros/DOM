@@ -26,6 +26,8 @@ form.addEventListener('submit', function(event){
     eliminarCompletadas.addEventListener('click',function() {
         
         document.getElementById("tareasLista").remove(); 
+
+        window.location.reload();
         /*       const  tareasCompletadas= document.querySelectorAll('completada')
     
         tareasCompletadas.forEach(function(tareaCompletada){
